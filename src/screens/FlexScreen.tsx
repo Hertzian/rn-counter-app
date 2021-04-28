@@ -17,25 +17,28 @@ const styles = StyleSheet.create({
     //height: 300,
     backgroundColor: '#28C4D9',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end',
+    justifyContent: 'flex-start',
   },
 
   box1: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    //alignSelf has priority over his parent
+    alignSelf: 'center',
   },
 
   box2: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    alignSelf: 'flex-start',
   },
 
   box3: {
     borderWidth: 2,
     borderColor: 'white',
     fontSize: 30,
+    alignSelf: 'flex-end',
   },
 });
