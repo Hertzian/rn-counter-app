@@ -5,13 +5,15 @@ import {SafeAreaView, StyleSheet} from 'react-native';
 //import {BoxObjectModelScreen} from './src/screens/BoxObjectModelScreen';
 //import {DimensionsScreen} from './src/screens/DimensionsScreen';
 //import {PositionScreen} from './src/screens/PositionScreen';
-import {FlexScreen} from './src/screens/FlexScreen';
+//import {FlexScreen} from './src/screens/FlexScreen';
+import {HomeWorkScreen} from './src/screens/HomeWorkScreen';
 
 export const App = () => {
   return (
     <SafeAreaView style={styles.areaView}>
-      <FlexScreen />
+      <HomeWorkScreen />
     </SafeAreaView>
+    //<FlexScreen />
     //<PositionScreen />
     //<DimensionsScreen />
     //<BoxObjectModelScreen />
